@@ -1,0 +1,39 @@
+[
+  {
+    "_id": "125a2b92-a4ee-47ae-9a11-baace00b9258",
+    "colName": "Backend",
+    "created": "2023-02-25T15:01:14.194Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "c0f96a8c-3cf6-4931-99d8-d3a426aaa98c",
+        "name": "User",
+        "containerId": "",
+        "created": "2023-02-25T17:30:32.647Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "e2fcb411-9cef-4a4b-84f7-d812e94f2b77",
+        "name": "Request",
+        "containerId": "",
+        "created": "2023-03-02T17:02:59.352Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "ea531616-9069-49cd-aed4-76a1607a0318",
+        "name": "admin",
+        "containerId": "",
+        "created": "2023-03-03T02:29:31.468Z",
+        "sortNum": 30000
+      }
+    ],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "options": {
+        "baseUrl": "{{API}}"
+      },
+      "envId": "d8697758-4077-4207-ba10-0f5f1d08e60a"
+    }
+  }
+]

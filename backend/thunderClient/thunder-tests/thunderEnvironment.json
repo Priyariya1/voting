@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "d8697758-4077-4207-ba10-0f5f1d08e60a",
+    "name": "local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-02-25T15:00:36.618Z",
+    "modified": "2023-02-25T15:00:36.618Z",
+    "data": [
+      {
+        "name": "API",
+        "value": "http://localhost:5000"
+      },
+      {
+        "name": "authToken",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXJ1ZGgxQHRlc3QuY29tIiwibmFtZSI6ImRzZHNkc2FkcyIsInV1aWQiOiJlNjkzYjMyOS1hNDMxLTQwYmYtOGM4Ni1kN2IwNmFjZmY1ZjgiLCJpYXQiOjE2NzczODg0ODcsImV4cCI6MTY3NzU2MTI4N30.D9SPkz1NngAVKYlFn6nSa4F9s9JQxIOEVAyMLHYU808"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "etsc",
+    "prisma:setup-db": "prisma migrate dev --name init",
+    "prisma:update-client": "prisma generate",
+    "migrate": "prisma migrate dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kill": "fuser -k 5000/tcp",
+    "studio" : "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/http-errors": "^2.0.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.14.1",
+    "bcrypt": "^5.1.0",
+    "esbuild": "^0.17.10",
+    "esbuild-node-tsc": "^2.0.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "prisma": "^4.10.1"
+  }
+}

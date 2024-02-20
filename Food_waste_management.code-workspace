@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "backend"
+		},
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"thunder-client.saveToWorkspace": true,
+		"thunder-client.workspaceRelativePath": "./thunderClient",
+		"thunder-client.customLocation": "",
+		"cSpell.words": [
+			"daisyui",
+			"zustand"
+		],
+		"editor.fontLigatures": true,
+		"headwind.prependCustomClasses": true
+	}
+}
